@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle dectype",
+        "command": "dectype:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dectype",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "dectype:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
