@@ -1,7 +1,7 @@
 {
   "name": "dectype",
   "main": "./lib/dectype_main",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Dectype like teletype but for decnet",
   "keywords": [],
   "activationCommands": {
