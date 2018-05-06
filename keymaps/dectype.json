@@ -1,5 +1,7 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "dectype:toggle"
+    "ctrl-alt-o": "Dectype:toggle",
+    "ctrl-alt-z": "Dectype:toggle-dev-1",
+    "ctrl-alt-x": "Dectype:toggle-dev-2"
   }
 }

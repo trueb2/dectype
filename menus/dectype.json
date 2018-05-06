@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle dectype",
-        "command": "dectype:toggle"
+        "label": "Toggle Dectype",
+        "command": "Dectype:toggle"
       }
     ]
   },
@@ -12,11 +12,29 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "dectype",
+          "label": "Dectype",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "dectype:toggle"
+              "label": "Toggle Dectype",
+              "command": "Dectype:toggle"
+            }
+          ]
+        },
+        {
+          "label": "Dectype",
+          "submenu": [
+            {
+              "label": "Toggle Dectype --dev=1",
+              "command": "Dectype:toggle-dev-1"
+            }
+          ]
+        },
+        {
+          "label": "Dectype",
+          "submenu": [
+            {
+              "label": "Toggle Dectype --dev=2",
+              "command": "Dectype:toggle-dev-2"
             }
           ]
         }
